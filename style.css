@@ -1,0 +1,92 @@
+/* General Background Styling */
+.birthday-background {
+  background: url("ter.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(8, 8, 8);
+  text-align: center;
+}
+
+/* Message Container */
+.message-container {
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+/* Birthday Message Text */
+.birthday-message {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* Gift Section */
+.gift-container {
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+/* Gift Grid Layout */
+.gift-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+/* Gift Images */
+.gift-grid img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s;
+}
+
+.gift-grid img:hover {
+  transform: scale(1.05);
+}
+
+/* Navigation Button Container */
+.nav-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* Navigation Button Style */
+.nav-button button {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.nav-button button:hover {
+  background-color: #ff3b2f;
+  transform: scale(1.05);
+}
+.gift-grid img {
+  width: 100%;
+  border-radius: 15px;
+  background-color: transparent;
+  box-shadow: none;
+  mix-blend-mode: multiply; /* optional: improves blending with background */
+  transition: transform 0.3s;
+}
+
+.gift-grid img:hover {
+  transform: scale(1.05);
+}
